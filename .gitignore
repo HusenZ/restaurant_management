@@ -1,0 +1,17 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/dineos.db*
+backend/media/
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+*.tsbuildinfo
+
+# Claude Code local settings (per-machine permissions)
+.claude/settings.local.json
